@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <EditText
+        android:id="@+id/publish_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="6"
+        android:minLines="5"
+        android:textColor="#000000"
+        android:padding="15dp"
+        android:gravity="left|top"
+        android:hint="你此刻的心情。。。"/>
+
+
+    <View
+        android:layout_below="@id/publish_edit"
+        android:id="@+id/publish_view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"></View>
+
+    <com.linewow.xhyy.forfunapp.view.NoScrollGridView
+        android:layout_below="@id/publish_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/publish_grid"
+        android:layout_margin="10dp"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:verticalSpacing="6dp" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/publish_do"
+        android:background="@drawable/selector_orange_maincolor"
+        android:text="提交"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:padding="15dp"
+        />
+
+</RelativeLayout>

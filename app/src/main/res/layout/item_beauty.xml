@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:padding="10dp"
+    android:stateListAnimator="@animator/raise"
+
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:scaleType="centerCrop"
+        app:cardCornerRadius="3dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardElevation="8dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <com.linewow.xhyy.forfunapp.view.beauty.BadgedFourThreeImageView
+                android:id="@+id/beauty_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                app:badgeGravity="end|bottom"
+                android:stateListAnimator="@animator/raise"
+                app:badgePadding="16dp"
+                />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<style name="Look.Home">-->
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <!--<item name="android:statusBarColor">@color/immersive_bars</item>-->
+        <!--<item name="android:navigationBarColor">@color/immersive_bars</item>-->
+        <!--<item name="android:windowActionBarOverlay">true</item>-->
+        <!--<item name="android:windowActionModeOverlay">true</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:windowBackground">@color/black</item>-->
+        <!--<item name="android:windowEnterTransition">@transition/home_enter</item>-->
+    <!--</style>-->
+
+    <style name="Look" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="android:colorBackground">@color/cardview_light_background</item>-->
+        <!--<item name="android:colorAccent">@color/colorAccent</item>-->
+        <!--<item name="android:navigationBarColor">@color/primary_super_dark</item>-->
+        <item name="android:statusBarColor">#000</item>
+        <!--<item name="android:textColorHint">@color/hint_disabled_dark</item>-->
+        <!--<item name="android:windowBackground">@color/color_0</item>-->
+        <!--<item name="android:windowAllowEnterTransitionOverlap">true</item>-->
+        <!--<item name="android:windowAllowReturnTransitionOverlap">true</item>-->
+        <!--<item name="android:windowSharedElementsUseOverlay">false</item>-->
+    </style>
+
+</resources>
