@@ -1,8 +1,10 @@
 # ForFunApp
 ## 整理项目  增加用到的东西
-----
-##结构
-###MVP
+
+
+## 结构
+### MVP
+
 BaseModel BaseView BasePresenter
 列表类的操作都一样
 ListBaseModel
@@ -23,7 +25,7 @@ public interface ListBaseView<T> extends BaseView {
     void scrollToTop();
 }
 ```
-##框架
+##  框架
 ### 网络方面
 
 
