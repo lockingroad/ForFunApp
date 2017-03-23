@@ -6,6 +6,7 @@
 ### MVP
 
 BaseModel BaseView BasePresenter
+----
 列表类的操作都一样
 ListBaseModel
 ```android
